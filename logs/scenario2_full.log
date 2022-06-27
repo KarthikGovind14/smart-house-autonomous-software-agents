@@ -1,0 +1,28 @@
+houseagent                     Trying to use intention PersonRoomOccupancyIntention to achieve goal {PersonRoomOccupancyGoal#0:{people:["Thomas"]}}
+houseagent>PersonRoomOccupancyIntention#0 Intention started
+houseagent                     Trying to use intention SenseLightsIntention to achieve goal {SenseLightsGoal#1:{lights:["livingroom","kitchen","bedroom","bathroom"]}}
+houseagent>SenseLightsIntention#1 Intention started
+houseagent                     Trying to use intention SenseLightSensorsIntention to achieve goal {SenseLightSensorsGoal#2:{sensors:["light kitchen","light bedroom","light bathroom","light livingroom"],min:50,max:80}}
+houseagent>SenseLightSensorsIntention#2 Intention started
+houseagent                     Trying to use intention LightsIntensityIntention to achieve goal {LightsIntensityGoal#3:{lights:["livingroom","kitchen","bedroom","bathroom"],target:75}}
+houseagent>LightsIntensityIntention#3 Intention started
+houseagent                     Trying to use intention PersonOccupancyIntention to achieve goal {PersonOccupancyGoal#4:{lights:["livingroom","kitchen","bedroom","bathroom"]}}
+houseagent>PersonOccupancyIntention#4 Intention started
+houseagent                     Trying to use intention SenseTemperatureSensorsIntention to achieve goal {SenseTemperatureSensorsGoal#5:{sensors:["temperature livingroom","temperature kitchen","temperature bedroom","temperature bathroom"],low:16,med:18,high:20}}
+houseagent>SenseTemperatureSensorsIntention#5 Intention started
+houseagent                     Trying to use intention SenseRoomHeatersIntention to achieve goal {SenseRoomHeatersGoal#6:{heatings:["livingroom","kitchen","bedroom","bathroom"]}}
+houseagent>SenseRoomHeatersIntention#6 Intention started
+houseagent                     Trying to use intention HeatRoomsIntention to achieve goal {HeatRoomsGoal#7:{heatings:["livingroom","kitchen","bedroom","bathroom"]}}
+houseagent>HeatRoomsIntention#7 Intention started
+houseagent                     Trying to use intention HeatOccupancyIntention to achieve goal {HeatOccupancyGoal#8:{heatings:["livingroom","kitchen","bedroom","bathroom"]}}
+houseagent>HeatOccupancyIntention#8 Intention started
+houseagent                     Trying to use intention SenseElectricStoveIntention to achieve goal {SenseElectricStoveGoal#9:{electric_stove:"kitchen"}}
+houseagent>SenseElectricStoveIntention#9 Intention started
+houseagent                     Trying to use intention KitchenOccupancyGoalIntention to achieve goal {KitchenOccupancyGoal#10:{electric_stove:"kitchen"}}
+houseagent>KitchenOccupancyGoalIntention#10 Intention started
+botagent                       Trying to use intention SenseBatteryIntention to achieve goal {SenseBatteryGoal#11:{}}
+botagent>SenseBatteryIntention#11 Intention started
+houseagent                     Trying to use intention CleanIntention to achieve goal {CleanGoal#12:{hh:10,mm:0,rooms:["livingroom","kitchen","bedroom"]}}
+houseagent>CleanIntention#12   Intention started
+houseagent                     Trying to use intention SenseWashingMachineIntention to achieve goal {SenseWashingMachineGoal#13:{washing_machine:"bathroom"}}
+houseagent>SenseWashingMachineIntention#13 Intention started
